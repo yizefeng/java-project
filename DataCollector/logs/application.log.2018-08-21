@@ -1,0 +1,1247 @@
+2018-08-21 16:50:25  [ main:0 ] - [ INFO ]  ...........................数据采集器服务启动   开始...........................
+  2018-08-21 16:50:25  [ main:0 ] - [ INFO ]  ...........................数据采集器服务初始化 开始...........................
+  2018-08-21 16:50:25  [ main:10 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 16:50:25  [ main:20 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 16:50:25  [ main:50 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 16:50:25  [ main:70 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 16:50:25  [ main:70 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 16:50:25  [ main:80 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 16:50:25  [ main:206 ] - [ INFO ]  ...........................数据采集器服务初始化 完成...........................
+  2018-08-21 16:50:25  [ main:216 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 16:50:25  [ main:216 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 16:50:25  [ main:246 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 16:50:25  [ main:246 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 16:50:25  [ main:246 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 16:50:25  [ main:246 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 16:50:25  [ main:246 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 16:50:25  [ main:276 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+  2018-08-21 16:50:25  [ main:276 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+  2018-08-21 16:50:25  [ main:276 ] - [ WARN ]  Unknown channel option 'TCP_NODELAY' for channel '[id: 0xbeb014ee]'
+  2018-08-21 16:50:56  [ main:10 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 16:50:56  [ main:10 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 16:50:56  [ main:10 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 16:50:56  [ main:21 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 16:50:56  [ main:41 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 16:50:56  [ main:41 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 16:50:56  [ main:41 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 16:50:56  [ main:41 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 16:50:56  [ main:41 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 16:50:56  [ main:41 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 16:50:56  [ main:41 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 16:50:56  [ main:41 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 16:50:56  [ main:51 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 16:50:56  [ main:51 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 16:50:56  [ main:51 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 16:50:56  [ main:51 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 16:50:56  [ main:51 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 16:50:56  [ main:51 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 16:50:56  [ main:51 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 16:50:56  [ main:51 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 16:50:56  [ main:51 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 16:50:56  [ main:61 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 16:50:56  [ main:61 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 16:50:56  [ main:71 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 16:50:56  [ main:181 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 16:50:56  [ main:181 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 16:50:56  [ main:181 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 16:54:32  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 16:54:32  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 16:54:32  [ main:10 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 16:54:32  [ main:10 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 16:54:32  [ main:40 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 16:54:32  [ main:60 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 16:54:32  [ main:60 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 16:54:32  [ main:70 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 16:54:32  [ main:183 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 16:54:32  [ main:183 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 16:54:32  [ main:183 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 16:54:32  [ main:243 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 16:54:32  [ main:243 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 16:54:32  [ main:243 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 16:54:32  [ main:243 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 16:54:32  [ main:243 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 16:54:32  [ main:253 ] - [ INFO ]  ...........................数据采集器客户端启动   完成...........................
+  2018-08-21 16:54:32  [ nioEventLoopGroup-2-1:253 ] - [ INFO ]  正在连接... 
+  2018-08-21 16:54:56  [ main:24225 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 32768
+  2018-08-21 16:54:56  [ main:24225 ] - [ DEBUG ]  -Dio.netty.recycler.maxSharedCapacityFactor: 2
+  2018-08-21 16:54:56  [ main:24225 ] - [ DEBUG ]  -Dio.netty.recycler.linkCapacity: 16
+  2018-08-21 16:54:56  [ main:24225 ] - [ DEBUG ]  -Dio.netty.recycler.ratio: 8
+  2018-08-21 16:57:35  [ nioEventLoopGroup-3-1:430063 ] - [ DEBUG ]  -Dio.netty.buffer.bytebuf.checkAccessible: true
+  2018-08-21 16:57:35  [ nioEventLoopGroup-3-1:430065 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@626b3d27
+  2018-08-21 16:57:35  [ nioEventLoopGroup-3-1:430067 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+  java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:368)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:892)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:243)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-21 16:59:51  [ main:0 ] - [ INFO ]  ...........................数据采集器服务启动   开始...........................
+  2018-08-21 16:59:51  [ main:1 ] - [ INFO ]  ...........................数据采集器服务初始化 开始...........................
+  2018-08-21 16:59:51  [ main:7 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 16:59:51  [ main:12 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 16:59:51  [ main:31 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 16:59:51  [ main:32 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 16:59:51  [ main:33 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 16:59:51  [ main:34 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 16:59:51  [ main:34 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 16:59:51  [ main:35 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 16:59:51  [ main:35 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 16:59:51  [ main:36 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 16:59:51  [ main:36 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 16:59:51  [ main:36 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 16:59:51  [ main:36 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 16:59:51  [ main:36 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 16:59:51  [ main:37 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 16:59:51  [ main:38 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 16:59:51  [ main:38 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 16:59:51  [ main:38 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 16:59:51  [ main:39 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 16:59:51  [ main:55 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 16:59:51  [ main:55 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 16:59:51  [ main:66 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 16:59:51  [ main:189 ] - [ INFO ]  ...........................数据采集器服务初始化 完成...........................
+  2018-08-21 16:59:51  [ main:201 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 16:59:51  [ main:201 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 16:59:51  [ main:228 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 16:59:51  [ main:228 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 16:59:51  [ main:230 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 16:59:51  [ main:230 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 16:59:51  [ main:230 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 16:59:51  [ main:259 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+  2018-08-21 16:59:51  [ main:259 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+  2018-08-21 16:59:51  [ main:261 ] - [ WARN ]  Unknown channel option 'TCP_NODELAY' for channel '[id: 0x8faae4a7]'
+  2018-08-21 16:59:55  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 16:59:55  [ main:1 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 16:59:55  [ main:8 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 16:59:55  [ main:14 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 16:59:55  [ main:39 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 16:59:55  [ main:40 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 16:59:55  [ main:41 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 16:59:55  [ main:43 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 16:59:55  [ main:43 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 16:59:55  [ main:44 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 16:59:55  [ main:44 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 16:59:55  [ main:46 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 16:59:55  [ main:46 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 16:59:55  [ main:46 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 16:59:55  [ main:46 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 16:59:55  [ main:47 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 16:59:55  [ main:47 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 16:59:55  [ main:49 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 16:59:55  [ main:49 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 16:59:55  [ main:49 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 16:59:55  [ main:49 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 16:59:55  [ main:63 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 16:59:55  [ main:63 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 16:59:55  [ main:73 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 16:59:55  [ main:197 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 16:59:55  [ main:197 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 16:59:55  [ main:197 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 16:59:55  [ main:238 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 16:59:55  [ main:239 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 16:59:55  [ main:241 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 16:59:55  [ main:241 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 16:59:55  [ main:241 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 16:59:55  [ main:250 ] - [ INFO ]  ...........................数据采集器客户端启动   完成...........................
+  2018-08-21 16:59:55  [ nioEventLoopGroup-2-1:250 ] - [ INFO ]  正在连接... 
+  2018-08-21 17:00:04  [ main:9256 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 32768
+  2018-08-21 17:00:04  [ main:9257 ] - [ DEBUG ]  -Dio.netty.recycler.maxSharedCapacityFactor: 2
+  2018-08-21 17:00:04  [ main:9257 ] - [ DEBUG ]  -Dio.netty.recycler.linkCapacity: 16
+  2018-08-21 17:00:04  [ main:9257 ] - [ DEBUG ]  -Dio.netty.recycler.ratio: 8
+  2018-08-21 17:00:04  [ main:9260 ] - [ INFO ]  客户端发送数据：123123
+  2018-08-21 17:00:26  [ nioEventLoopGroup-3-1:34948 ] - [ DEBUG ]  -Dio.netty.buffer.bytebuf.checkAccessible: true
+  2018-08-21 17:00:26  [ nioEventLoopGroup-3-1:34951 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@486d215b
+  2018-08-21 17:00:26  [ nioEventLoopGroup-3-1:34954 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+  java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:368)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:892)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:243)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-21 17:02:02  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 17:02:02  [ main:1 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 17:02:02  [ main:11 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:02:02  [ main:20 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:02:02  [ main:48 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:02:02  [ main:49 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:02:02  [ main:49 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:02:02  [ main:51 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:02:02  [ main:51 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:02:02  [ main:51 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:02:02  [ main:52 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:02:02  [ main:53 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:02:02  [ main:53 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:02:02  [ main:53 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:02:02  [ main:53 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:02:02  [ main:53 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:02:02  [ main:54 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:02:02  [ main:55 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:02:02  [ main:55 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:02:02  [ main:55 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:02:02  [ main:56 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:02:02  [ main:93 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:02:02  [ main:94 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:02:02  [ main:102 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:02:02  [ main:228 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:02:02  [ main:228 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:02:02  [ main:229 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 17:02:02  [ main:270 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:02:02  [ main:270 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:02:02  [ main:273 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:02:02  [ main:273 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:02:02  [ main:273 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:02:30  [ main:0 ] - [ INFO ]  ...........................数据采集器服务启动   开始...........................
+  2018-08-21 17:02:30  [ main:1 ] - [ INFO ]  ...........................数据采集器服务初始化 开始...........................
+  2018-08-21 17:02:31  [ main:9 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:02:31  [ main:15 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:02:31  [ main:41 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:02:31  [ main:42 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:02:31  [ main:43 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:02:31  [ main:44 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:02:31  [ main:45 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:02:31  [ main:45 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:02:31  [ main:46 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:02:31  [ main:46 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:02:31  [ main:46 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:02:31  [ main:46 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:02:31  [ main:47 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:02:31  [ main:47 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:02:31  [ main:47 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:02:31  [ main:48 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:02:31  [ main:49 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:02:31  [ main:49 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:02:31  [ main:49 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:02:31  [ main:87 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:02:31  [ main:87 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:02:31  [ main:97 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:02:31  [ main:240 ] - [ INFO ]  ...........................数据采集器服务初始化 完成...........................
+  2018-08-21 17:02:31  [ main:257 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:02:31  [ main:257 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:02:31  [ main:287 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:02:31  [ main:287 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:02:31  [ main:290 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:02:31  [ main:291 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:02:31  [ main:291 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:02:31  [ main:320 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+  2018-08-21 17:02:31  [ main:321 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+  2018-08-21 17:02:31  [ main:323 ] - [ WARN ]  Unknown channel option 'TCP_NODELAY' for channel '[id: 0x1627de6a]'
+  2018-08-21 17:02:40  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 17:02:40  [ main:1 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 17:02:40  [ main:10 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:02:40  [ main:18 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:02:41  [ main:44 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:02:41  [ main:46 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:02:41  [ main:46 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:02:41  [ main:48 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:02:41  [ main:48 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:02:41  [ main:49 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:02:41  [ main:49 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:02:41  [ main:50 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:02:41  [ main:50 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:02:41  [ main:50 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:02:41  [ main:51 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:02:41  [ main:51 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:02:41  [ main:51 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:02:41  [ main:53 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:02:41  [ main:53 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:02:41  [ main:53 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:02:41  [ main:54 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:02:41  [ main:103 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:02:41  [ main:104 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:02:41  [ main:115 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:02:41  [ main:244 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:02:41  [ main:244 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:02:41  [ main:245 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 17:02:41  [ main:288 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:02:41  [ main:289 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:02:41  [ main:291 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:02:41  [ main:291 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:02:41  [ main:291 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:02:41  [ main:304 ] - [ INFO ]  ...........................数据采集器客户端启动   完成...........................
+  2018-08-21 17:02:41  [ nioEventLoopGroup-2-1:304 ] - [ INFO ]  正在连接... 
+  2018-08-21 17:02:41  [ nioEventLoopGroup-3-1:10411 ] - [ INFO ]  channel注册成功！
+  2018-08-21 17:02:41  [ nioEventLoopGroup-3-1:10412 ] - [ INFO ]  channel连接成功！
+  2018-08-21 17:02:54  [ main:13354 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 32768
+  2018-08-21 17:02:54  [ main:13354 ] - [ DEBUG ]  -Dio.netty.recycler.maxSharedCapacityFactor: 2
+  2018-08-21 17:02:54  [ main:13354 ] - [ DEBUG ]  -Dio.netty.recycler.linkCapacity: 16
+  2018-08-21 17:02:54  [ main:13354 ] - [ DEBUG ]  -Dio.netty.recycler.ratio: 8
+  2018-08-21 17:02:54  [ main:13357 ] - [ INFO ]  客户端发送数据：123
+  2018-08-21 17:03:12  [ nioEventLoopGroup-2-1:31048 ] - [ DEBUG ]  -Dio.netty.buffer.bytebuf.checkAccessible: true
+  2018-08-21 17:03:12  [ nioEventLoopGroup-2-1:31051 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@9a4be80
+  2018-08-21 17:03:12  [ nioEventLoopGroup-2-1:31053 ] - [ INFO ]  数据读取完毕... 
+  2018-08-21 17:03:12  [ nioEventLoopGroup-2-1:31055 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+  java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:368)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:892)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:243)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-21 17:03:12  [ nioEventLoopGroup-2-1:31059 ] - [ INFO ]  连接关闭... 
+  2018-08-21 17:03:12  [ main:0 ] - [ INFO ]  ...........................数据采集器服务启动   开始...........................
+  2018-08-21 17:03:13  [ main:2 ] - [ INFO ]  ...........................数据采集器服务初始化 开始...........................
+  2018-08-21 17:03:13  [ main:10 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:03:13  [ main:18 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:03:13  [ main:41 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:03:13  [ main:43 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:03:13  [ main:43 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:03:13  [ main:45 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:03:13  [ main:46 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:03:13  [ main:46 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:03:13  [ main:47 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:03:13  [ main:48 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:03:13  [ main:48 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:03:13  [ main:48 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:03:13  [ main:48 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:03:13  [ main:49 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:03:13  [ main:49 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:03:13  [ main:51 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:03:13  [ main:51 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:03:13  [ main:51 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:03:13  [ main:52 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:03:13  [ main:96 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:03:13  [ main:96 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:03:13  [ main:111 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:03:13  [ main:295 ] - [ INFO ]  ...........................数据采集器服务初始化 完成...........................
+  2018-08-21 17:03:13  [ main:313 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:03:13  [ main:313 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:03:13  [ main:357 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:03:13  [ main:358 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:03:13  [ main:362 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:03:13  [ main:362 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:03:13  [ main:362 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:03:13  [ main:411 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+  2018-08-21 17:03:13  [ main:411 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+  2018-08-21 17:03:13  [ main:413 ] - [ WARN ]  Unknown channel option 'TCP_NODELAY' for channel '[id: 0xed312c2e]'
+  2018-08-21 17:03:38  [ main:0 ] - [ INFO ]  ...........................数据采集器服务启动   开始...........................
+  2018-08-21 17:03:38  [ main:1 ] - [ INFO ]  ...........................数据采集器服务初始化 开始...........................
+  2018-08-21 17:03:38  [ main:7 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:03:38  [ main:13 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:03:38  [ main:42 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:03:38  [ main:43 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:03:38  [ main:44 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:03:38  [ main:46 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:03:38  [ main:46 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:03:38  [ main:47 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:03:38  [ main:47 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:03:38  [ main:48 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:03:38  [ main:48 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:03:38  [ main:49 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:03:38  [ main:49 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:03:38  [ main:49 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:03:38  [ main:49 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:03:38  [ main:51 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:03:38  [ main:51 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:03:38  [ main:51 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:03:38  [ main:52 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:03:38  [ main:90 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:03:38  [ main:90 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:03:38  [ main:99 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:03:39  [ main:234 ] - [ INFO ]  ...........................数据采集器服务初始化 完成...........................
+  2018-08-21 17:03:39  [ main:247 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:03:39  [ main:247 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:03:39  [ main:281 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:03:39  [ main:281 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:03:39  [ main:284 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:03:39  [ main:284 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:03:39  [ main:286 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:03:39  [ main:315 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+  2018-08-21 17:03:39  [ main:316 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+  2018-08-21 17:03:39  [ main:318 ] - [ WARN ]  Unknown channel option 'TCP_NODELAY' for channel '[id: 0x5373b0a7]'
+  2018-08-21 17:04:00  [ main:1 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 17:04:00  [ main:2 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 17:04:00  [ main:9 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:04:00  [ main:17 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:04:00  [ main:46 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:04:00  [ main:47 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:04:00  [ main:48 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:04:00  [ main:49 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:04:00  [ main:50 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:04:00  [ main:50 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:04:00  [ main:51 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:04:00  [ main:51 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:04:00  [ main:51 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:04:00  [ main:52 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:04:00  [ main:52 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:04:00  [ main:52 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:04:00  [ main:52 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:04:00  [ main:54 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:04:00  [ main:54 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:04:00  [ main:54 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:04:00  [ main:54 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:04:00  [ main:94 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:04:00  [ main:94 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:04:00  [ main:103 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:04:00  [ main:240 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:04:00  [ main:240 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:04:00  [ main:241 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 17:04:00  [ main:280 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:04:00  [ main:280 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:04:00  [ main:283 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:04:00  [ main:283 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:04:00  [ main:283 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:04:00  [ main:295 ] - [ INFO ]  ...........................数据采集器客户端启动   完成...........................
+  2018-08-21 17:04:00  [ nioEventLoopGroup-2-1:295 ] - [ INFO ]  正在连接... 
+  2018-08-21 17:04:00  [ nioEventLoopGroup-3-1:21922 ] - [ INFO ]  channel注册成功！
+  2018-08-21 17:04:00  [ nioEventLoopGroup-3-1:21922 ] - [ INFO ]  channel连接成功！
+  2018-08-21 17:04:20  [ main:19801 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 32768
+  2018-08-21 17:04:20  [ main:19801 ] - [ DEBUG ]  -Dio.netty.recycler.maxSharedCapacityFactor: 2
+  2018-08-21 17:04:20  [ main:19801 ] - [ DEBUG ]  -Dio.netty.recycler.linkCapacity: 16
+  2018-08-21 17:04:20  [ main:19801 ] - [ DEBUG ]  -Dio.netty.recycler.ratio: 8
+  2018-08-21 17:04:20  [ main:19806 ] - [ INFO ]  客户端发送数据：123123
+  2018-08-21 17:05:59  [ main:119416 ] - [ INFO ]  客户端发送数据：456
+  2018-08-21 17:06:02  [ main:122262 ] - [ INFO ]  客户端发送数据：87899
+  2018-08-21 17:06:06  [ main:125931 ] - [ INFO ]  客户端发送数据：446464
+  2018-08-21 17:06:09  [ main:128560 ] - [ INFO ]  客户端发送数据：454654646
+  2018-08-21 17:08:08  [ nioEventLoopGroup-2-1:247989 ] - [ DEBUG ]  -Dio.netty.buffer.bytebuf.checkAccessible: true
+  2018-08-21 17:08:08  [ nioEventLoopGroup-2-1:247991 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@73136450
+  2018-08-21 17:08:08  [ nioEventLoopGroup-2-1:247993 ] - [ INFO ]  数据读取完毕... 
+  2018-08-21 17:08:08  [ nioEventLoopGroup-2-1:247994 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+  java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:368)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:892)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:243)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-21 17:08:08  [ nioEventLoopGroup-2-1:247999 ] - [ INFO ]  连接关闭... 
+  2018-08-21 17:11:26  [ main:0 ] - [ INFO ]  ...........................数据采集器服务启动   开始...........................
+  2018-08-21 17:11:26  [ main:1 ] - [ INFO ]  ...........................数据采集器服务初始化 开始...........................
+  2018-08-21 17:11:26  [ main:8 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:11:26  [ main:15 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:11:26  [ main:35 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:11:26  [ main:36 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:11:26  [ main:37 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:11:26  [ main:38 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:11:26  [ main:39 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:11:26  [ main:39 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:11:26  [ main:40 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:11:26  [ main:40 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:11:26  [ main:40 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:11:26  [ main:41 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:11:26  [ main:41 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:11:26  [ main:41 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:11:26  [ main:41 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:11:26  [ main:43 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:11:26  [ main:43 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:11:26  [ main:43 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:11:26  [ main:43 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:11:26  [ main:78 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:11:26  [ main:79 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:11:26  [ main:88 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:11:26  [ main:222 ] - [ INFO ]  ...........................数据采集器服务初始化 完成...........................
+  2018-08-21 17:11:26  [ main:234 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:11:26  [ main:234 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:11:26  [ main:263 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:11:26  [ main:263 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:11:26  [ main:265 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:11:26  [ main:266 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:11:26  [ main:267 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:11:26  [ main:306 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+  2018-08-21 17:11:26  [ main:306 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+  2018-08-21 17:11:26  [ main:309 ] - [ WARN ]  Unknown channel option 'TCP_NODELAY' for channel '[id: 0x0431de31]'
+  2018-08-21 17:11:30  [ main:1 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 17:11:30  [ main:2 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 17:11:30  [ main:10 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:11:30  [ main:16 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:11:30  [ main:42 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:11:30  [ main:44 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:11:30  [ main:44 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:11:30  [ main:46 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:11:30  [ main:47 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:11:30  [ main:47 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:11:30  [ main:48 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:11:30  [ main:48 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:11:30  [ main:48 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:11:30  [ main:48 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:11:30  [ main:49 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:11:30  [ main:49 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:11:30  [ main:49 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:11:30  [ main:50 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:11:30  [ main:50 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:11:30  [ main:51 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:11:30  [ main:51 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:11:30  [ main:90 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:11:30  [ main:90 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:11:30  [ main:100 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:11:30  [ main:230 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:11:30  [ main:230 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:11:30  [ main:231 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 17:11:30  [ main:270 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:11:30  [ main:271 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:11:30  [ main:274 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:11:30  [ main:274 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:11:30  [ main:274 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:11:30  [ main:285 ] - [ INFO ]  ...........................数据采集器客户端启动   完成...........................
+  2018-08-21 17:11:30  [ nioEventLoopGroup-2-1:285 ] - [ INFO ]  正在连接... 
+  2018-08-21 17:11:30  [ nioEventLoopGroup-3-1:4424 ] - [ INFO ]  channel注册成功！
+  2018-08-21 17:11:30  [ nioEventLoopGroup-3-1:4424 ] - [ INFO ]  channel连接成功！
+  2018-08-21 17:11:37  [ main:6710 ] - [ INFO ]  客户端发送数据：123
+  2018-08-21 17:11:37  [ main:6719 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 32768
+  2018-08-21 17:11:37  [ main:6719 ] - [ DEBUG ]  -Dio.netty.recycler.maxSharedCapacityFactor: 2
+  2018-08-21 17:11:37  [ main:6720 ] - [ DEBUG ]  -Dio.netty.recycler.linkCapacity: 16
+  2018-08-21 17:11:37  [ main:6720 ] - [ DEBUG ]  -Dio.netty.recycler.ratio: 8
+  2018-08-21 17:11:57  [ nioEventLoopGroup-3-1:30750 ] - [ DEBUG ]  -Dio.netty.buffer.bytebuf.checkAccessible: true
+  2018-08-21 17:11:57  [ nioEventLoopGroup-3-1:30754 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@25538c09
+  2018-08-21 17:11:57  [ nioEventLoopGroup-3-1:30757 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+  java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:368)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:892)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:243)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-21 17:15:44  [ main:0 ] - [ INFO ]  ...........................数据采集器服务启动   开始...........................
+  2018-08-21 17:15:44  [ main:2 ] - [ INFO ]  ...........................数据采集器服务初始化 开始...........................
+  2018-08-21 17:15:44  [ main:11 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:15:45  [ main:17 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:15:45  [ main:38 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:15:45  [ main:39 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:15:45  [ main:39 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:15:45  [ main:41 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:15:45  [ main:42 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:15:45  [ main:42 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:15:45  [ main:43 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:15:45  [ main:43 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:15:45  [ main:44 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:15:45  [ main:44 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:15:45  [ main:44 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:15:45  [ main:44 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:15:45  [ main:45 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:15:45  [ main:46 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:15:45  [ main:46 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:15:45  [ main:46 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:15:45  [ main:47 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:15:45  [ main:85 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:15:45  [ main:85 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:15:45  [ main:94 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:15:45  [ main:233 ] - [ INFO ]  ...........................数据采集器服务初始化 完成...........................
+  2018-08-21 17:15:45  [ main:246 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:15:45  [ main:246 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:15:45  [ main:277 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:15:45  [ main:277 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:15:45  [ main:280 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:15:45  [ main:280 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:15:45  [ main:282 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:15:45  [ main:317 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+  2018-08-21 17:15:45  [ main:318 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+  2018-08-21 17:15:45  [ main:320 ] - [ WARN ]  Unknown channel option 'TCP_NODELAY' for channel '[id: 0xc80021f1]'
+  2018-08-21 17:15:48  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 17:15:48  [ main:2 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 17:15:48  [ main:9 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:15:48  [ main:17 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:15:48  [ main:43 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:15:48  [ main:44 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:15:48  [ main:45 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:15:48  [ main:47 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:15:48  [ main:47 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:15:48  [ main:48 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:15:48  [ main:49 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:15:48  [ main:49 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:15:48  [ main:49 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:15:48  [ main:50 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:15:48  [ main:50 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:15:48  [ main:50 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:15:48  [ main:50 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:15:48  [ main:52 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:15:48  [ main:52 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:15:48  [ main:52 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:15:48  [ main:52 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:15:48  [ main:93 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:15:48  [ main:94 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:15:48  [ main:103 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:15:48  [ main:235 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:15:48  [ main:236 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:15:48  [ main:236 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 17:15:48  [ main:279 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:15:48  [ main:279 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:15:48  [ main:282 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:15:48  [ main:282 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:15:48  [ main:282 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:15:48  [ nioEventLoopGroup-2-1:294 ] - [ INFO ]  正在连接... 
+  2018-08-21 17:15:48  [ main:295 ] - [ INFO ]  ...........................数据采集器客户端启动   完成...........................
+  2018-08-21 17:15:48  [ nioEventLoopGroup-3-1:3488 ] - [ INFO ]  channel注册成功！
+  2018-08-21 17:15:48  [ nioEventLoopGroup-3-1:3488 ] - [ INFO ]  channel连接成功！
+  2018-08-21 17:15:53  [ main:5354 ] - [ INFO ]  客户端发送数据：123123
+  2018-08-21 17:15:53  [ main:5363 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 32768
+  2018-08-21 17:15:53  [ main:5364 ] - [ DEBUG ]  -Dio.netty.recycler.maxSharedCapacityFactor: 2
+  2018-08-21 17:15:53  [ main:5364 ] - [ DEBUG ]  -Dio.netty.recycler.linkCapacity: 16
+  2018-08-21 17:15:53  [ main:5364 ] - [ DEBUG ]  -Dio.netty.recycler.ratio: 8
+  2018-08-21 17:16:07  [ nioEventLoopGroup-3-1:22199 ] - [ DEBUG ]  -Dio.netty.buffer.bytebuf.checkAccessible: true
+  2018-08-21 17:16:07  [ nioEventLoopGroup-3-1:22203 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1b354495
+  2018-08-21 17:16:07  [ nioEventLoopGroup-3-1:22208 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+  java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:368)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:892)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:243)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-21 17:18:04  [ main:0 ] - [ INFO ]  ...........................数据采集器服务启动   开始...........................
+  2018-08-21 17:18:04  [ main:2 ] - [ INFO ]  ...........................数据采集器服务初始化 开始...........................
+  2018-08-21 17:18:04  [ main:8 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:18:04  [ main:14 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:18:04  [ main:34 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:18:04  [ main:35 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:18:04  [ main:36 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:18:04  [ main:38 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:18:04  [ main:38 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:18:04  [ main:39 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:18:04  [ main:39 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:18:04  [ main:40 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:18:04  [ main:40 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:18:04  [ main:40 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:18:04  [ main:40 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:18:04  [ main:41 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:18:04  [ main:41 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:18:04  [ main:42 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:18:04  [ main:42 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:18:04  [ main:42 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:18:04  [ main:43 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:18:04  [ main:80 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:18:04  [ main:81 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:18:04  [ main:89 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:18:04  [ main:234 ] - [ INFO ]  ...........................数据采集器服务初始化 完成...........................
+  2018-08-21 17:18:04  [ main:247 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:18:04  [ main:247 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:18:04  [ main:282 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:18:04  [ main:282 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:18:04  [ main:284 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:18:04  [ main:285 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:18:04  [ main:285 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:18:04  [ main:317 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+  2018-08-21 17:18:04  [ main:317 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+  2018-08-21 17:18:04  [ main:320 ] - [ WARN ]  Unknown channel option 'TCP_NODELAY' for channel '[id: 0x0f4dafb9]'
+  2018-08-21 17:18:08  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 17:18:08  [ main:1 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 17:18:08  [ main:8 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:18:08  [ main:15 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:18:08  [ main:42 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:18:08  [ main:43 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:18:08  [ main:43 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:18:08  [ main:45 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:18:08  [ main:46 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:18:08  [ main:46 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:18:08  [ main:47 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:18:08  [ main:47 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:18:08  [ main:47 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:18:08  [ main:48 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:18:08  [ main:48 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:18:08  [ main:48 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:18:08  [ main:49 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:18:08  [ main:50 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:18:08  [ main:51 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:18:08  [ main:51 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:18:08  [ main:52 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:18:08  [ main:89 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:18:08  [ main:90 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:18:08  [ main:98 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:18:08  [ main:223 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:18:08  [ main:223 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:18:08  [ main:224 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 17:18:08  [ main:269 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:18:08  [ main:269 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:18:08  [ main:272 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:18:08  [ main:272 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:18:08  [ main:272 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:18:08  [ main:282 ] - [ INFO ]  ...........................数据采集器客户端启动   完成...........................
+  2018-08-21 17:18:08  [ nioEventLoopGroup-2-1:282 ] - [ INFO ]  正在连接... 
+  2018-08-21 17:18:08  [ nioEventLoopGroup-3-1:4242 ] - [ INFO ]  channel注册成功！
+  2018-08-21 17:18:08  [ nioEventLoopGroup-3-1:4242 ] - [ INFO ]  channel连接成功！
+  2018-08-21 17:18:18  [ main:9979 ] - [ INFO ]  客户端发送数据：123123
+  2018-08-21 17:18:18  [ main:9989 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 32768
+  2018-08-21 17:18:18  [ main:9989 ] - [ DEBUG ]  -Dio.netty.recycler.maxSharedCapacityFactor: 2
+  2018-08-21 17:18:18  [ main:9990 ] - [ DEBUG ]  -Dio.netty.recycler.linkCapacity: 16
+  2018-08-21 17:18:18  [ main:9990 ] - [ DEBUG ]  -Dio.netty.recycler.ratio: 8
+  2018-08-21 17:18:33  [ main:25505 ] - [ INFO ]  客户端发送数据：123
+  2018-08-21 17:19:46  [ nioEventLoopGroup-3-1:102442 ] - [ DEBUG ]  -Dio.netty.buffer.bytebuf.checkAccessible: true
+  2018-08-21 17:19:46  [ nioEventLoopGroup-3-1:102446 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6787cde4
+  2018-08-21 17:19:46  [ nioEventLoopGroup-3-1:102450 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+  java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:368)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:892)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:243)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-21 17:19:56  [ main:0 ] - [ INFO ]  ...........................数据采集器服务启动   开始...........................
+  2018-08-21 17:19:56  [ main:1 ] - [ INFO ]  ...........................数据采集器服务初始化 开始...........................
+  2018-08-21 17:19:56  [ main:7 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:19:56  [ main:13 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:19:56  [ main:33 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:19:56  [ main:34 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:19:56  [ main:35 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:19:56  [ main:37 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:19:56  [ main:37 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:19:56  [ main:38 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:19:56  [ main:38 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:19:56  [ main:39 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:19:56  [ main:39 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:19:56  [ main:39 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:19:56  [ main:39 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:19:56  [ main:40 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:19:56  [ main:40 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:19:56  [ main:41 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:19:56  [ main:41 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:19:56  [ main:41 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:19:56  [ main:42 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:19:56  [ main:83 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:19:56  [ main:84 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:19:56  [ main:92 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:19:56  [ main:224 ] - [ INFO ]  ...........................数据采集器服务初始化 完成...........................
+  2018-08-21 17:19:56  [ main:235 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:19:56  [ main:236 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:19:56  [ main:267 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:19:56  [ main:268 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:19:56  [ main:270 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:19:56  [ main:270 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:19:56  [ main:271 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:19:56  [ main:303 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+  2018-08-21 17:19:56  [ main:303 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+  2018-08-21 17:19:56  [ main:305 ] - [ WARN ]  Unknown channel option 'TCP_NODELAY' for channel '[id: 0x1b5ae72b]'
+  2018-08-21 17:20:00  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 17:20:00  [ main:1 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 17:20:00  [ main:9 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:20:00  [ main:15 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:20:00  [ main:48 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:20:00  [ main:51 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:20:00  [ main:51 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:20:00  [ main:54 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:20:00  [ main:55 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:20:00  [ main:55 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:20:00  [ main:56 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:20:00  [ main:57 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:20:00  [ main:57 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:20:00  [ main:57 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:20:00  [ main:57 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:20:00  [ main:59 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:20:00  [ main:59 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:20:00  [ main:61 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:20:00  [ main:62 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:20:00  [ main:62 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:20:00  [ main:63 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:20:00  [ main:109 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:20:00  [ main:109 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:20:00  [ main:117 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:20:00  [ main:254 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:20:00  [ main:255 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:20:00  [ main:255 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 17:20:00  [ main:297 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:20:00  [ main:297 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:20:00  [ main:299 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:20:00  [ main:300 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:20:00  [ main:300 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:20:00  [ main:311 ] - [ INFO ]  ...........................数据采集器客户端启动   完成...........................
+  2018-08-21 17:20:00  [ nioEventLoopGroup-2-1:311 ] - [ INFO ]  正在连接... 
+  2018-08-21 17:20:00  [ nioEventLoopGroup-3-1:4862 ] - [ INFO ]  channel注册成功！
+  2018-08-21 17:20:00  [ nioEventLoopGroup-3-1:4863 ] - [ INFO ]  channel连接成功！
+  2018-08-21 17:20:15  [ main:14961 ] - [ INFO ]  客户端发送数据：123
+  2018-08-21 17:20:15  [ main:14970 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 32768
+  2018-08-21 17:20:15  [ main:14970 ] - [ DEBUG ]  -Dio.netty.recycler.maxSharedCapacityFactor: 2
+  2018-08-21 17:20:15  [ main:14970 ] - [ DEBUG ]  -Dio.netty.recycler.linkCapacity: 16
+  2018-08-21 17:20:15  [ main:14970 ] - [ DEBUG ]  -Dio.netty.recycler.ratio: 8
+  2018-08-21 17:21:01  [ main:61282 ] - [ INFO ]  客户端发送数据：3241
+  2018-08-21 17:29:01  [ nioEventLoopGroup-3-1:545007 ] - [ DEBUG ]  -Dio.netty.buffer.bytebuf.checkAccessible: true
+  2018-08-21 17:29:01  [ nioEventLoopGroup-3-1:545010 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7123ad0f
+  2018-08-21 17:29:01  [ nioEventLoopGroup-3-1:545013 ] - [ INFO ]  读取数据完毕
+  2018-08-21 17:29:01  [ nioEventLoopGroup-3-1:545014 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+  java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:368)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:892)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:243)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-21 17:29:01  [ nioEventLoopGroup-3-1:545019 ] - [ INFO ]  发生异常：java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+  2018-08-21 17:29:09  [ main:0 ] - [ INFO ]  ...........................数据采集器服务启动   开始...........................
+  2018-08-21 17:29:09  [ main:1 ] - [ INFO ]  ...........................数据采集器服务初始化 开始...........................
+  2018-08-21 17:29:09  [ main:9 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:29:09  [ main:16 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:29:09  [ main:36 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:29:09  [ main:37 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:29:09  [ main:37 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:29:09  [ main:39 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:29:09  [ main:39 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:29:09  [ main:40 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:29:09  [ main:40 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:29:09  [ main:41 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:29:09  [ main:41 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:29:09  [ main:41 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:29:09  [ main:41 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:29:09  [ main:42 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:29:09  [ main:42 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:29:09  [ main:43 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:29:09  [ main:44 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:29:09  [ main:44 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:29:09  [ main:45 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:29:09  [ main:81 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:29:09  [ main:81 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:29:09  [ main:90 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:29:09  [ main:231 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:29:09  [ main:231 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:29:09  [ main:232 ] - [ INFO ]  ...........................数据采集器服务初始化 完成...........................
+  2018-08-21 17:29:09  [ main:273 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:29:09  [ main:273 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:29:09  [ main:275 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:29:09  [ main:276 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:29:09  [ main:276 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:29:09  [ main:308 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+  2018-08-21 17:29:09  [ main:308 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+  2018-08-21 17:29:09  [ main:310 ] - [ WARN ]  Unknown channel option 'TCP_NODELAY' for channel '[id: 0x7b4440e2]'
+  2018-08-21 17:29:12  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 17:29:12  [ main:2 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 17:29:12  [ main:10 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:29:12  [ main:16 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:29:12  [ main:34 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:29:12  [ main:35 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:29:12  [ main:36 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:29:12  [ main:37 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:29:12  [ main:38 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:29:12  [ main:38 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:29:12  [ main:39 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:29:12  [ main:40 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:29:12  [ main:40 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:29:12  [ main:40 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:29:12  [ main:40 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:29:12  [ main:41 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:29:12  [ main:41 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:29:12  [ main:42 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:29:12  [ main:42 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:29:12  [ main:43 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:29:12  [ main:43 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:29:12  [ main:80 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:29:12  [ main:81 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:29:12  [ main:90 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:29:12  [ main:218 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:29:12  [ main:218 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:29:12  [ main:219 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 17:29:12  [ main:261 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:29:12  [ main:261 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:29:12  [ main:265 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:29:12  [ main:265 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:29:12  [ main:265 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:29:12  [ main:278 ] - [ INFO ]  ...........................数据采集器客户端启动   完成...........................
+  2018-08-21 17:29:12  [ nioEventLoopGroup-2-1:278 ] - [ INFO ]  正在连接... 
+  2018-08-21 17:29:12  [ nioEventLoopGroup-3-1:3389 ] - [ INFO ]  channel注册成功！
+  2018-08-21 17:29:12  [ nioEventLoopGroup-3-1:3389 ] - [ INFO ]  channel连接成功！
+  2018-08-21 17:29:23  [ main:11357 ] - [ INFO ]  客户端发送数据：123123
+  2018-08-21 17:29:23  [ main:11367 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 32768
+  2018-08-21 17:29:23  [ main:11367 ] - [ DEBUG ]  -Dio.netty.recycler.maxSharedCapacityFactor: 2
+  2018-08-21 17:29:23  [ main:11367 ] - [ DEBUG ]  -Dio.netty.recycler.linkCapacity: 16
+  2018-08-21 17:29:23  [ main:11367 ] - [ DEBUG ]  -Dio.netty.recycler.ratio: 8
+  2018-08-21 17:29:31  [ nioEventLoopGroup-3-1:22336 ] - [ DEBUG ]  -Dio.netty.buffer.bytebuf.checkAccessible: true
+  2018-08-21 17:29:31  [ nioEventLoopGroup-3-1:22341 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4abdff27
+  2018-08-21 17:29:31  [ nioEventLoopGroup-3-1:22343 ] - [ INFO ]  读取数据完毕
+  2018-08-21 17:29:31  [ nioEventLoopGroup-3-1:22345 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+  java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:368)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:892)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:243)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-21 17:29:31  [ nioEventLoopGroup-3-1:22349 ] - [ INFO ]  发生异常：java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+  2018-08-21 17:31:51  [ main:0 ] - [ INFO ]  ...........................数据采集器服务启动   开始...........................
+  2018-08-21 17:31:51  [ main:1 ] - [ INFO ]  ...........................数据采集器服务初始化 开始...........................
+  2018-08-21 17:31:51  [ main:7 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:31:51  [ main:13 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:31:51  [ main:32 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:31:51  [ main:33 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:31:51  [ main:34 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:31:51  [ main:35 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:31:51  [ main:36 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:31:51  [ main:36 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:31:51  [ main:37 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:31:51  [ main:37 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:31:51  [ main:38 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:31:51  [ main:38 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:31:51  [ main:38 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:31:51  [ main:38 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:31:51  [ main:38 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:31:51  [ main:40 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:31:51  [ main:40 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:31:51  [ main:40 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:31:51  [ main:40 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:31:51  [ main:77 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:31:51  [ main:77 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:31:51  [ main:86 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:31:51  [ main:219 ] - [ INFO ]  ...........................数据采集器服务初始化 完成...........................
+  2018-08-21 17:31:51  [ main:230 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:31:51  [ main:230 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:31:51  [ main:258 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:31:51  [ main:259 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:31:51  [ main:261 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:31:51  [ main:261 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:31:51  [ main:262 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:31:51  [ main:294 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+  2018-08-21 17:31:51  [ main:295 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+  2018-08-21 17:31:51  [ main:297 ] - [ WARN ]  Unknown channel option 'TCP_NODELAY' for channel '[id: 0x6e38d70a]'
+  2018-08-21 17:31:55  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 17:31:55  [ main:1 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 17:31:55  [ main:8 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:31:55  [ main:14 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:31:55  [ main:34 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:31:55  [ main:35 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:31:55  [ main:36 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:31:55  [ main:37 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:31:55  [ main:38 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:31:55  [ main:38 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:31:55  [ main:39 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:31:55  [ main:39 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:31:55  [ main:39 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:31:55  [ main:39 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:31:55  [ main:40 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:31:55  [ main:40 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:31:55  [ main:40 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:31:55  [ main:41 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:31:55  [ main:41 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:31:55  [ main:41 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:31:55  [ main:42 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:31:55  [ main:79 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:31:55  [ main:80 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:31:55  [ main:91 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:31:56  [ main:211 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:31:56  [ main:212 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:31:56  [ main:212 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 17:31:56  [ main:256 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:31:56  [ main:256 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:31:56  [ main:260 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:31:56  [ main:260 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:31:56  [ main:260 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:31:56  [ main:272 ] - [ INFO ]  ...........................数据采集器客户端启动   完成...........................
+  2018-08-21 17:31:56  [ nioEventLoopGroup-2-1:272 ] - [ INFO ]  正在连接... 
+  2018-08-21 17:32:10  [ nioEventLoopGroup-3-1:18528 ] - [ DEBUG ]  -Dio.netty.buffer.bytebuf.checkAccessible: true
+  2018-08-21 17:32:10  [ nioEventLoopGroup-3-1:18530 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@50184d6
+  2018-08-21 17:32:10  [ nioEventLoopGroup-3-1:18532 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+  java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:368)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:892)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:243)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-21 17:36:26  [ main:0 ] - [ INFO ]  ...........................数据采集器服务启动   开始...........................
+  2018-08-21 17:36:26  [ main:0 ] - [ INFO ]  ...........................数据采集器服务初始化 开始...........................
+  2018-08-21 17:36:26  [ main:10 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:36:26  [ main:20 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:36:26  [ main:40 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:36:26  [ main:50 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:36:26  [ main:80 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:36:26  [ main:80 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:36:26  [ main:80 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:36:26  [ main:206 ] - [ INFO ]  ...........................数据采集器服务初始化 完成...........................
+  2018-08-21 17:36:26  [ main:226 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:36:26  [ main:226 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:36:26  [ main:256 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:36:26  [ main:256 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:36:26  [ main:256 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:36:26  [ main:256 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:36:26  [ main:256 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:36:26  [ main:286 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+  2018-08-21 17:36:26  [ main:286 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+  2018-08-21 17:36:26  [ main:286 ] - [ WARN ]  Unknown channel option 'TCP_NODELAY' for channel '[id: 0x21a6fcdd]'
+  2018-08-21 17:36:34  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 17:36:34  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 17:36:34  [ main:14 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:36:34  [ main:21 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:36:34  [ main:38 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:36:34  [ main:58 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:36:34  [ main:58 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:36:34  [ main:68 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:36:34  [ main:188 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:36:34  [ main:188 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:36:34  [ main:188 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 17:36:34  [ main:218 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:36:34  [ main:218 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:36:34  [ main:228 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:36:34  [ main:228 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:36:34  [ main:228 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:36:34  [ main:238 ] - [ INFO ]  ...........................数据采集器客户端启动   完成...........................
+  2018-08-21 17:36:34  [ nioEventLoopGroup-2-1:238 ] - [ INFO ]  正在连接... 
+  2018-08-21 17:36:38  [ main:4033 ] - [ INFO ]  客户端发送数据：123
+  2018-08-21 17:36:38  [ main:4033 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 32768
+  2018-08-21 17:36:38  [ main:4033 ] - [ DEBUG ]  -Dio.netty.recycler.maxSharedCapacityFactor: 2
+  2018-08-21 17:36:38  [ main:4033 ] - [ DEBUG ]  -Dio.netty.recycler.linkCapacity: 16
+  2018-08-21 17:36:38  [ main:4033 ] - [ DEBUG ]  -Dio.netty.recycler.ratio: 8
+  2018-08-21 17:36:46  [ nioEventLoopGroup-3-1:19881 ] - [ DEBUG ]  -Dio.netty.buffer.bytebuf.checkAccessible: true
+  2018-08-21 17:36:46  [ nioEventLoopGroup-3-1:19881 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@139fe238
+  2018-08-21 17:36:46  [ nioEventLoopGroup-3-1:19881 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+  java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:368)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:892)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:243)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-21 17:36:53  [ main:0 ] - [ INFO ]  ...........................数据采集器服务启动   开始...........................
+  2018-08-21 17:36:53  [ main:0 ] - [ INFO ]  ...........................数据采集器服务初始化 开始...........................
+  2018-08-21 17:36:53  [ main:10 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:36:53  [ main:10 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:36:53  [ main:32 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:36:53  [ main:32 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:36:53  [ main:32 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:36:53  [ main:32 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:36:53  [ main:32 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:36:53  [ main:32 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:36:53  [ main:32 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:36:53  [ main:32 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:36:53  [ main:32 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:36:53  [ main:32 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:36:53  [ main:32 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:36:53  [ main:32 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:36:53  [ main:32 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:36:53  [ main:42 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:36:53  [ main:42 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:36:53  [ main:42 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:36:53  [ main:42 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:36:53  [ main:72 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:36:53  [ main:72 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:36:53  [ main:82 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:36:53  [ main:222 ] - [ INFO ]  ...........................数据采集器服务初始化 完成...........................
+  2018-08-21 17:36:53  [ main:232 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:36:53  [ main:232 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:36:53  [ main:262 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:36:53  [ main:262 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:36:53  [ main:262 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:36:53  [ main:262 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:36:53  [ main:262 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:36:53  [ main:292 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+  2018-08-21 17:36:53  [ main:292 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+  2018-08-21 17:36:53  [ main:292 ] - [ WARN ]  Unknown channel option 'TCP_NODELAY' for channel '[id: 0x636a7bd3]'
+  2018-08-21 17:36:57  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端启动   开始...........................
+  2018-08-21 17:36:57  [ main:0 ] - [ INFO ]  ...........................数据采集器客户端初始化   开始...........................
+  2018-08-21 17:36:57  [ main:10 ] - [ DEBUG ]  Using SLF4J as the default logging framework
+  2018-08-21 17:36:57  [ main:20 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+  2018-08-21 17:36:57  [ main:40 ] - [ DEBUG ]  Platform: Windows
+  2018-08-21 17:36:57  [ main:40 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+  2018-08-21 17:36:57  [ main:40 ] - [ DEBUG ]  Java version: 8
+  2018-08-21 17:36:57  [ main:40 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+  2018-08-21 17:36:57  [ main:40 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+  2018-08-21 17:36:57  [ main:40 ] - [ DEBUG ]  java.nio.Buffer.address: available
+  2018-08-21 17:36:57  [ main:40 ] - [ DEBUG ]  direct buffer constructor: available
+  2018-08-21 17:36:57  [ main:40 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+  2018-08-21 17:36:57  [ main:40 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  2018-08-21 17:36:57  [ main:40 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+  2018-08-21 17:36:57  [ main:40 ] - [ DEBUG ]  sun.misc.Unsafe: available
+  2018-08-21 17:36:57  [ main:50 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+  2018-08-21 17:36:57  [ main:50 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2018-08-21 17:36:57  [ main:50 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+  2018-08-21 17:36:57  [ main:50 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1888485376 bytes
+  2018-08-21 17:36:57  [ main:50 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2018-08-21 17:36:57  [ main:50 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+  2018-08-21 17:36:57  [ main:92 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+  2018-08-21 17:36:57  [ main:92 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+  2018-08-21 17:36:57  [ main:95 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+  2018-08-21 17:36:58  [ main:235 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2018-08-21 17:36:58  [ main:235 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2018-08-21 17:36:58  [ main:235 ] - [ INFO ]  ...........................数据采集器客户端初始化   完成...........................
+  2018-08-21 17:36:58  [ main:285 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+  2018-08-21 17:36:58  [ main:285 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+  2018-08-21 17:36:58  [ main:285 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+  2018-08-21 17:36:58  [ main:285 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+  2018-08-21 17:36:58  [ main:285 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2018-08-21 17:36:58  [ main:295 ] - [ INFO ]  ...........................数据采集器客户端启动   完成...........................
+  2018-08-21 17:36:58  [ nioEventLoopGroup-2-1:295 ] - [ INFO ]  正在连接... 
+  2018-08-21 17:37:02  [ main:5137 ] - [ INFO ]  客户端发送数据：123
+  2018-08-21 17:38:05  [ main:67947 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 32768
+  2018-08-21 17:38:05  [ main:67947 ] - [ DEBUG ]  -Dio.netty.recycler.maxSharedCapacityFactor: 2
+  2018-08-21 17:38:05  [ main:67947 ] - [ DEBUG ]  -Dio.netty.recycler.linkCapacity: 16
+  2018-08-21 17:38:05  [ main:67947 ] - [ DEBUG ]  -Dio.netty.recycler.ratio: 8
+  2018-08-21 17:40:52  [ nioEventLoopGroup-2-1:234725 ] - [ DEBUG ]  -Dio.netty.buffer.bytebuf.checkAccessible: true
+  2018-08-21 17:40:52  [ nioEventLoopGroup-2-1:234725 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@73136450
+  2018-08-21 17:40:52  [ nioEventLoopGroup-2-1:234725 ] - [ INFO ]  数据读取完毕... 
+  2018-08-21 17:40:52  [ nioEventLoopGroup-2-1:234725 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+  java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:368)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:892)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:243)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-21 17:40:52  [ nioEventLoopGroup-2-1:234735 ] - [ INFO ]  连接关闭... 
+  
